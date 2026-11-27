@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="RetailPulse | Retail Analytics", page_icon="RP", layout="wide")
+st.set_page_config(page_title="RetailPulse | Retail Analytics", page_icon="📊", layout="wide")
 
 @st.cache_data
 def make_data() -> pd.DataFrame:
